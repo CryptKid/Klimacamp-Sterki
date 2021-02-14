@@ -8,67 +8,265 @@ font-family: 'JostBold';
 font-style: bold;
 src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
 
+@media only screen and (max-width: 599px) {
+  /*html Quelltext stylen*/
+  .info {
+    height: auto;
+    width: 100%;
+    min-width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin: 0 auto;
+    text-align: left;
+    color: white;
+    background-color: #1DA64A;
+    box-shadow: 0 -10px 40px gray;
+  }
+  .info p {
+    width: 90%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+  }
+  .info a {
+    color: white;
+  }
+  .headline {
+    margin-left: 5%;
+    font-family: JostBold;
+    font-size: 30px;
+    transition: text-shadow 1s;
+  }
+  .headline:hover {
+    text-shadow: 10px 10px 20px gray;
+  }
+  .block {
+    width: 90%;
+    height: auto;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: #E6E4EB;
+  }
+  .presseMitteilung {
+    padding-top: 1px;
+    font-size: 16px;
+  }
+  .presseMitteilung h1 {
+    width: 90%;
+    font-size: 32px;
+    font-family: JostBold;
+    color: #3dcc9f;
+    padding-left: 20px;
+  }
+  .presseMitteilung p {
+    width: 90%;
+    padding-left: 20px;
+    font-weight: bolder;
+  }
+  .download {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 5%;
+  }
+}
 
-/*html Quelltext stylen*/
-.info {
-  height: auto;
-  width: 100%;
-  min-width: 100%;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  margin: 0 auto;
-  text-align: left;
-  color: white;
-  background-color: #1DA64A;
-  box-shadow: 0 -10px 40px gray;
+@media only screen and (min-width: 600px ) {
+  /*html Quelltext stylen*/
+  .info {
+    height: auto;
+    width: 100%;
+    min-width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin: 0 auto;
+    text-align: left;
+    color: white;
+    background-color: #1DA64A;
+    box-shadow: 0 -10px 40px gray;
+  }
+  .info p {
+    width: 90%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .info a {
+    color: white;
+  }
+  .headline {
+    margin-left: 5%;
+    font-family: JostBold;
+    font-size: 45px;
+    transition: text-shadow 1s;
+  }
+  .headline:hover {
+    text-shadow: 10px 10px 20px gray;
+  }
+  .block {
+    width: 90%;
+    height: auto;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: #E6E4EB;
+  }
+  .presseMitteilung {
+    padding: 20px;
+    padding-left: 40px;
+    padding-top: 1px;
+    font-size: 16px;
+  }
+  .presseMitteilung h1 {
+    width: 90%;
+    font-size: 40px;
+    font-family: JostBold;
+    color: #3dcc9f;
+  }
+  .presseMitteilung p {
+    width: 95%;
+  }
+  .download {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 5%;
+  }
 }
-.info p {
-  width: 75%;
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
+@media only screen and (min-width: 980px ) {
+  /*html Quelltext stylen*/
+  .info {
+    height: auto;
+    width: 100%;
+    min-width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin: 0 auto;
+    text-align: left;
+    color: white;
+    background-color: #1DA64A;
+    box-shadow: 0 -10px 40px gray;
+  }
+  .info p {
+    width: 80%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .info a {
+    color: white;
+  }
+  .headline {
+    margin-left: 10%;
+    font-family: JostBold;
+    font-size: 45px;
+    transition: text-shadow 1s;
+  }
+  .headline:hover {
+    text-shadow: 10px 10px 20px gray;
+  }
+  .block {
+    width: 80%;
+    height: auto;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: #E6E4EB;
+  }
+  .presseMitteilung {
+    padding: 20px;
+    padding-left: 40px;
+    padding-top: 1px;
+    font-size: 16px;
+  }
+  .presseMitteilung h1 {
+    width: 90%;
+    font-size: 45px;
+    font-family: JostBold;
+    color: #3dcc9f;
+  }
+  .presseMitteilung p {
+    width: 95%;
+  }
+  .download {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10%;
+  }
 }
-.info a {
-  color: white;
-}
-.headline {
-  margin-left: 12.5%;
-  font-family: JostBold;
-  font-size: 45px;
-  transition: text-shadow 1s;
-}
-.headline:hover {
-  text-shadow: 10px 10px 20px gray;
-}
-.block {
-  width: 50%;
-  height: auto;
-  position: static;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 30px;
-  background-color: #E6E4EB;
-}
-.presseMitteilung {
-  padding: 20px;
-  padding-left: 40px;
-  padding-top: 1px;
-  font-size: 16px;
-}
-.presseMitteilung h1 {
-  width: 90%;
-  font-size: 45px;
-  font-family: JostBold;
-  color: #3dcc9f;
-}
-.presseMitteilung p {
-  width: 95%;
-}
-.download {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-left: 25%;
-}
+
+@media only screen and (min-width: 1260px ) {
+  /*html Quelltext stylen*/
+  .info {
+    height: auto;
+    width: 100%;
+    min-width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin: 0 auto;
+    text-align: left;
+    color: white;
+    background-color: #1DA64A;
+    box-shadow: 0 -10px 40px gray;
+  }
+  .info p {
+    width: 75%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .info a {
+    color: white;
+  }
+  .headline {
+    margin-left: 12.5%;
+    font-family: JostBold;
+    font-size: 45px;
+    transition: text-shadow 1s;
+  }
+  .headline:hover {
+    text-shadow: 10px 10px 20px gray;
+  }
+  .block {
+    width: 50%;
+    height: auto;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: #E6E4EB;
+  }
+  .presseMitteilung {
+    padding: 20px;
+    padding-left: 40px;
+    padding-top: 1px;
+    font-size: 16px;
+  }
+  .presseMitteilung h1 {
+    width: 90%;
+    font-size: 45px;
+    font-family: JostBold;
+    color: #3dcc9f;
+  }
+  .presseMitteilung p {
+    width: 95%;
+  }
+  .download {
+    padding-top: 20px;
+    padding-bottom: 20px
