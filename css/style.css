@@ -58,6 +58,7 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     position: static;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;
     border-radius: 30px;
     background-color: #E6E4EB;
   }
@@ -75,7 +76,6 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
   .presseMitteilung p {
     width: 90%;
     padding-left: 20px;
-    margin-buttom: 10px;
     font-weight: bolder;
   }
   .download {
