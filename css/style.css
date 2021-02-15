@@ -70,7 +70,7 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     width: 90%;
     font-size: 32px;
     font-family: JostBold;
-    color: #3dcc9f;
+    color: #1DA64A;
     padding-left: 20px;
   }
   .presseMitteilung p {
@@ -146,7 +146,7 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     width: 90%;
     font-size: 40px;
     font-family: JostBold;
-    color: #3dcc9f;
+    color: #1DA64A;
   }
   .presseMitteilung p {
     width: 95%;
@@ -219,7 +219,7 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     width: 90%;
     font-size: 45px;
     font-family: JostBold;
-    color: #3dcc9f;
+    color: #1DA64A;
   }
   .presseMitteilung p {
     width: 95%;
@@ -292,7 +292,7 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     width: 90%;
     font-size: 45px;
     font-family: JostBold;
-    color: #3dcc9f;
+    color: #1DA64A;
   }
   .presseMitteilung p {
     width: 95%;
