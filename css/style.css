@@ -42,6 +42,95 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     margin-right: 8px;
     margin-top: -50px;
   }
+
+  #timerhead {
+    margin-left: 5%;
+    font-family: JostBold;
+    font-size: 7vh;
+    transition: text-shadow 1s;
+    color: #1DA64A;
+  }
+  #timerhead:hover {
+    text-shadow: 10px 10px 20px gray;
+  }
+  #timer {
+    background-color: #1DA64A;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 10vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3vh;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+  }
+  .countdown {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 3vh;
+  }
+  .countdown p {
+    color: black;
+    padding-top: 15vh;
+    font-size: 3vh;
+    position: absolute;
+  }
+  .countdown:hover #days {
+    rotate: 360deg;
+  }
+  .countdown:hover #hours {
+    rotate: 360deg;
+  }
+  .countdown:hover #minutes {
+    rotate: 360deg;
+  }
+  .countdown:hover #seconds{
+    rotate: 360deg;
+  }
+
+
+  #days {
+    background-color: #1B7340;
+    padding: 8px;
+    width: 6vh;
+    border-radius: 10px;
+    transition: rotate 1s;
+  }
+  #hours {
+    background-color: #1B7340;
+    padding: 8px;
+    width: 6vh;
+    border-radius: 10px;
+    transition: rotate 1s;
+  }
+  #minutes {
+    background-color: #1B7340;
+    padding: 8px;
+    width: 6vh;
+    border-radius: 10px;
+    transition: rotate 1s;
+  }
+  #seconds {
+    background-color: #1B7340;
+    padding: 8px;
+    width: 6vh;
+    border-radius: 10px;
+    transition: rotate 1s;
+  }
+
   .headline {
     width: 90%;
     margin-left: 5%;
@@ -99,6 +188,7 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     color: white;
     background-color: #1B7340;
     box-shadow: 0 -10px 40px gray;
+    z-index: 1;
   }
   .info p {
     width: 65%;
@@ -118,6 +208,94 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     margin-right: 18px;
     margin-top: -75px;
   }
+  #timerhead {
+    margin-left: 5%;
+    font-family: JostBold;
+    font-size: 8vh;
+    transition: text-shadow 1s;
+    color: #1DA64A;
+  }
+  #timerhead:hover {
+    text-shadow: 10px 10px 20px gray;
+  }
+  #timer {
+    background-color: #1DA64A;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 10vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3vh;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+  }
+  .countdown {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 3vh;
+  }
+  .countdown p {
+    color: black;
+    padding-top: 15vh;
+    font-size: 3vh;
+    position: absolute;
+  }
+  .countdown:hover #days {
+    rotate: 360deg;
+  }
+  .countdown:hover #hours {
+    rotate: 360deg;
+  }
+  .countdown:hover #minutes {
+    rotate: 360deg;
+  }
+  .countdown:hover #seconds{
+    rotate: 360deg;
+  }
+
+
+  #days {
+    background-color: #1B7340;
+    padding: 12px;
+    width: 9vh;
+    border-radius: 10px;
+    transition: rotate 1s;
+  }
+  #hours {
+    background-color: #1B7340;
+    padding: 12px;
+    width: 9vh;
+    border-radius: 10px;
+    transition: rotate 1s;
+  }
+  #minutes {
+    background-color: #1B7340;
+    padding: 12px;
+    width: 9vh;
+    border-radius: 10px;
+    transition: rotate 1s;
+  }
+  #seconds {
+    background-color: #1B7340;
+    padding: 12px;
+    width: 9vh;
+    border-radius: 10px;
+    transition: rotate 1s;
+  }
+
   .headline {
     margin-left: 5%;
     font-family: JostBold;
@@ -172,6 +350,7 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     color: white;
     background-color: #1B7340;
     box-shadow: 0 -10px 40px gray;
+    z-index: 1;
   }
   .info p {
     width: 80%;
@@ -191,6 +370,94 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     margin-right: 18px;
     margin-top: -75px;
   }
+  #timerhead {
+    margin-left: 10%;
+    font-family: JostBold;
+    font-size: 8vh;
+    transition: text-shadow 1s;
+    color: #1DA64A;
+  }
+  #timerhead:hover {
+    text-shadow: 10px 10px 20px gray;
+  }
+  #timer {
+    background-color: #1DA64A;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 10vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3vh;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+  }
+  .countdown {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 3vh;
+  }
+  .countdown p {
+    color: black;
+    padding-top: 15vh;
+    font-size: 3vh;
+    position: absolute;
+  }
+  .countdown:hover #days {
+    rotate: 360deg;
+  }
+  .countdown:hover #hours {
+    rotate: 360deg;
+  }
+  .countdown:hover #minutes {
+    rotate: 360deg;
+  }
+  .countdown:hover #seconds{
+    rotate: 360deg;
+  }
+
+
+  #days {
+    background-color: #1B7340;
+    padding: 12px;
+    width: 9vh;
+    border-radius: 10px;
+    transition: rotate 1s;
+  }
+  #hours {
+    background-color: #1B7340;
+    padding: 12px;
+    width: 9vh;
+    border-radius: 10px;
+    transition: rotate 1s;
+  }
+  #minutes {
+    background-color: #1B7340;
+    padding: 12px;
+    width: 9vh;
+    border-radius: 10px;
+    transition: rotate 1s;
+  }
+  #seconds {
+    background-color: #1B7340;
+    padding: 12px;
+    width: 9vh;
+    border-radius: 10px;
+    transition: rotate 1s;
+  }
+
   .headline {
     margin-left: 10%;
     font-family: JostBold;
@@ -245,6 +512,7 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     color: white;
     background-color: #1B7340;
     box-shadow: 0 -10px 40px gray;
+    z-index: 1;
   }
   .info p {
     width: 75%;
@@ -264,10 +532,100 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     margin-right: 18px;
     margin-top: -75px;
   }
+
+  #timerhead {
+    margin-left: 12.5%;
+    font-family: JostBold;
+    font-size: 8vh;
+    transition: text-shadow 1s;
+    color: #1DA64A;
+  }
+  #timerhead:hover {
+    text-shadow: 10px 10px 20px gray;
+  }
+  #timer {
+    background-color: #1DA64A;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 10vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3vh;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+  }
+  .countdown {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 3vh;
+  }
+  .countdown p {
+    color: black;
+    padding-top: 15vh;
+    font-size: 3vh;
+    position: absolute;
+  }
+  .countdown:hover #days {
+    rotate: 360deg;
+  }
+  .countdown:hover #hours {
+    rotate: 360deg;
+  }
+  .countdown:hover #minutes {
+    rotate: 360deg;
+  }
+  .countdown:hover #seconds{
+    rotate: 360deg;
+  }
+
+
+  #days {
+    background-color: #1B7340;
+    padding: 12px;
+    width: 9vh;
+    border-radius: 10px;
+    transition: rotate 1s;
+  }
+  #hours {
+    background-color: #1B7340;
+    padding: 12px;
+    width: 9vh;
+    border-radius: 10px;
+    transition: rotate 1s;
+  }
+  #minutes {
+    background-color: #1B7340;
+    padding: 12px;
+    width: 9vh;
+    border-radius: 10px;
+    transition: rotate 1s;
+  }
+  #seconds {
+    background-color: #1B7340;
+    padding: 12px;
+    width: 9vh;
+    border-radius: 10px;
+    transition: rotate 1s;
+  }
+
+
   .headline {
     margin-left: 12.5%;
     font-family: JostBold;
-    font-size: 45px;
+    font-size: 40px;
     transition: text-shadow 1s;
   }
   .headline:hover {
@@ -300,3 +658,4 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
   .download {
     padding-top: 20px;
     padding-bottom: 20px
+  }
