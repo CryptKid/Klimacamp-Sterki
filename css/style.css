@@ -42,7 +42,7 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     margin-right: 8px;
     margin-top: -50px;
   }
-  /*TIMER*/
+
   #timerhead {
     margin-left: 5%;
     font-family: JostBold;
