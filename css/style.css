@@ -24,7 +24,7 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     box-shadow: 0 -10px 40px gray;
   }
   .info p {
-    width: 70%;
+    width: 90%;
     margin: 0;
     margin-left: 5%;
     margin-right: auto;
@@ -191,7 +191,7 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     z-index: 1;
   }
   .info p {
-    width: 65%;
+    width: 90%;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
