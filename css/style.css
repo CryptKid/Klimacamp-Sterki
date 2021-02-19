@@ -8,9 +8,6 @@ font-family: 'JostBold';
 font-style: bold;
 src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
 
-* {
-  filter: grayscale();
-}
 @media only screen and (max-width: 599px) {
   /*html Quelltext stylen*/
   .info {
