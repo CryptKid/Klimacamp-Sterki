@@ -193,7 +193,7 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
   .info p {
     width: 90%;
     margin: 0;
-    margin-left: auto;
+    margin-left: 5%;
     margin-right: auto;
     padding-top: 20px;
     padding-bottom: 20px;
