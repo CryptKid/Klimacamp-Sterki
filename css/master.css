@@ -12,7 +12,7 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
 html {
   margin: 0;
   padding: 0;
-  filter: grayscale(400%);
+    filter: grayscale(100%);
 }
 body {
   margin: 0px;
