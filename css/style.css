@@ -24,7 +24,7 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     box-shadow: 0 -10px 40px gray;
   }
   .info p {
-    width: 90%;
+    width: 70%;
     margin: 0;
     margin-left: 5%;
     margin-right: auto;
@@ -191,10 +191,9 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
     z-index: 1;
   }
   .info p {
-    width: 90%;
+    width: 60%;
     margin: 0;
     margin-left: 5%;
-    margin-right: auto;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -355,7 +354,7 @@ src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
   .info p {
     width: 80%;
     margin: 0;
-    margin-left: 10%;
+    margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
     padding-bottom: 20px;
