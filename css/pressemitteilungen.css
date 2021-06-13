@@ -1,0 +1,87 @@
+@font-face {
+font-family: 'Jost';
+font-style: normal;
+src: local('Jost'), url("../ttf/Jost-500-Medium.ttf") format('truetype');}
+@font-face {
+font-family: 'JostBold';
+font-style: bold;
+src: local('JostBold'), url("../ttf/Jost-700-Bold.ttf") format('truetype');}
+
+@media only screen and (max-width: 599px) {
+  .headline {
+    margin-left: 25px;
+  }
+  .pms {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  .pressemitteilung {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 20px;
+    text-decoration: none;
+    background-image: url('../media/hambi-fahne.jpg');
+    background-size: cover;
+    background-position: top;
+    transition: box-shadow 0.5s;
+  }
+  .pressemitteilunglink {
+    text-decoration: none;
+  }
+  .pressemitteilung h3 {
+    font-size: 20px;
+    margin-left: 20px;
+    z-index: 2 !important;
+    color: #1DA64A;
+  }
+  .pressemitteilung p {
+    color: #E6E4EB;
+    margin-left: 20px;
+    z-index: 2;
+  }
+  .pressemitteilung span {
+    position: absolute;
+    margin-left: 15rem;
+    color: white;
+    margin-top: 1rem;
+    font-size: 12px;
+    z-index: 2;
+  }
+  .fill {
+    position: absolute;
+    width: 20rem;
+    height: 4rem;
+    border-radius: 19px 19px 0 0;
+    text-decoration: none;
+    background-color: #E6E4EB;
+    transition: all cubic-bezier(0.5, 1.8, 0.8, 0.5) 0.3s;
+  }
+  .pressemitteilunglink:hover .fill {
+    position: absolute;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 20px 20px 20px 20px;
+    text-decoration: none;
+    background-color: #1DA64A;
+  }
+  .pressemitteilunglink:hover .pressemitteilung h3 {
+    color: #E6E4EB;
+  }
+  .pressemitteilunglink:hover .pressemitteilung {
+    box-shadow: 5px 5px 20px gray;
+  }
+
+
+}
+@media only screen and (min-width: 600px ) {
+@media only screen and (min-width: 980px ) {
+@media only screen and (min-width: 1260px ) {
