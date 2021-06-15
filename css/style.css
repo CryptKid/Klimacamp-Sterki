@@ -23,7 +23,9 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
-
+link {
+  color: #1DA64A;
+}
 
 /*MOBILE*/
 @media only screen and (max-width: 599px) {
