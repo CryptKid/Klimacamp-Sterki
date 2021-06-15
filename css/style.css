@@ -115,7 +115,7 @@ footer {
     overflow-y: auto;
     padding-bottom: 100px;
     transition: all 0.5s ease;
-    rotate: -30deg;
+    rotate: 0;
     z-index: 4;
   }
   nav #show-menu:checked ~ .content .links{
