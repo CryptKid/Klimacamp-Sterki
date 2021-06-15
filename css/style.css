@@ -33,15 +33,15 @@ footer {
   h1 {
     color: #1DA64A;
     font-family: JostBold;
-    font-size: 5vh;
+    font-size: 5rem;
   }
   h2 {
     font-family: JostBold;
-    font-size: 4vh;
+    font-size: 4rem;
   }
   h3 {
     font-family: JostBold;
-    font-size: 3vh;
+    font-size: 3rem;
   }
   .menue {
     padding: 0;
