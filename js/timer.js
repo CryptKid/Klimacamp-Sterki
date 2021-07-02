@@ -39,7 +39,7 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("days").innerHTML = "JETZT!";
+    document.getElementById("days").innerHTML = "JETZT";
     document.getElementById("hours").innerHTML = "!";
     document.getElementById("minutes").innerHTML = "!";
     document.getElementById("seconds").innerHTML = "!";
