@@ -1,6 +1,8 @@
 date = new Date();
 if (date.getFullYear() == 2021 && date.getMonth() == 6){
 	dateid="day"+date.getDate()
-	document.getElementById(dateid).style.fontSize = "22px";
-	document.getElementById(dateid).style.fontWeight = 'bold';
+	daylabel=document.getElementById(dateid).style;
+	daylabel.fontSize = "22px";
+	daylabel.fontWeight = 'bold';
+	daylabel.color="#1b7340";;
 }
