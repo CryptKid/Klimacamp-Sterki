@@ -452,6 +452,10 @@ footer {
     margin-left: 25px;
     margin-right: 8px;
   }
+  p, h2, h3, h4, h5, h6  {
+	  margin-left: 25px;
+	  margin-right: 8px;
+  }
   .disclaimer {
     width: auto;
     background-color: red;
