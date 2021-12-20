@@ -2,7 +2,8 @@
 layout: default
 ---
 
-# Anfahrt zum neuen Klimacamp
+# Anfahrt zum ehemaligen Klimacamp
+
 ## Adresse/Koordinaten
 Jugend- und Kulturzentrum Emscherdamm
 Flugstraße 1-11, 46147 Oberhausen
