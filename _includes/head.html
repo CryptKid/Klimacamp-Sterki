@@ -3,7 +3,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Autobahnausbau verhindern! Klimacamp am Sterkrader Wald. Ab dem 2. Juli!">
 
-    <meta property="og:title" content="Klimacamp Sterkrader Wald"/>
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{site.title}} {% else %}{{ site.title }}{% endif %}
+"/>
     <meta property="og:description" content="Autobahnausbau verhindern! Klimacamp am Sterkrader Wald. Ab dem 2. Juli!"/>
     <meta property="og:image" content="{{site.baseurl}}/logo.jpg">
     <meta property="og:image:width" content="1200">
