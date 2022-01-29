@@ -12,7 +12,9 @@
     <meta property="og:type" content="Klimacamp"/>
     <meta property="og:url" content="{{site.baseurl}}"/>
 
-    <title>Klimacamp Sterkrader Wald</title>
+    <title>
+	    {% if page.title %}{{ page.title }} - {{site.title}} {% else %}{{ site.title }}{% endif %}
+    </title>
     <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
     <link rel="icon" href="{{site.baseurl}}/favicon.png">
     <!--script type="text/javascript" src="{{site.baseurl}}/js/timer.js"></script-->
