@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Datenschutz
+footer: 2
 ---
 
 # Datenschutzerklärung

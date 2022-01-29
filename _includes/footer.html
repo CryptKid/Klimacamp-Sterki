@@ -1,5 +1,7 @@
 <footer>
-      <hr>
-      <a href="{{site.baseurl}}/impressum.html" class="link">Impressum</a>
-      <a href="{{site.baseurl}}/datenschutz.html" class="link">Datenschutz</a>
+	<hr>
+	{% assign pagelist = site.pages | where_exp: "page","page.footer" | sort: 'footer' %}
+	{% for menupage in pagelist %}
+		<a href="{{ menupage.url | replace:'index',''}}" class="link">{{ menupage.title }}</a>
+	{% endfor %}
 </footer>
