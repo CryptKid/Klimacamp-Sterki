@@ -1,4 +1,6 @@
 ---
+title: Startseite
+menu: 1
 layout: default
 ---
 
