@@ -10,8 +10,11 @@ Kontaktdaten gemäß §5 TMG:
 
 ```
 Yannick Redweik
-Braunschweiger Str. 22
-44145 Dortmund
+Linkes Zentrum Duisburg
+z.Hd. Fridays for Future
+Landfermannstraße 9
+47051 Duisburg
+
 Mail: info@klimacamp-sterkraderwald.de
 ```
 
