@@ -11,7 +11,7 @@ footer: 2
 
 
 Wir sind mehrere FridaysForFuture-Ortsgruppen, die gemeinsam das Klimacamp am Sterkrader Wald veranstalten.
-Die juristisch verantwortliche Person ist dem [Impressum]({{site.baseurl}}/impressum.html) zu entnehmen; Unsere Website ist [klimacamp-sterkraderwald.de](https://klimacamp-sterkraderwald.de).
+Die juristisch verantwortliche Person ist dem [Impressum]({{site.baseurl}}/impressum) zu entnehmen; Unsere Website ist [klimacamp-sterkraderwald.de](https://klimacamp-sterkraderwald.de).
 
 ## Welche personenbezogenen Daten wir sammeln und warum wir sie sammeln
 
