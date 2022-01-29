@@ -7,7 +7,7 @@
 				<ul class="links">
 					{% assign pagelist = site.pages | where_exp: "page","page.menu" | sort: 'menu' %}
 					{% for menupage in pagelist %}
-					<li id="start"><a href="{{ menupage.url }}">{% if menupage == page %}<u>{% endif %}{{ menupage.title }}{% if menupage == page %}</u>{% endif %}</a></li>
+					<li id="start"><a href="{{ menupage.url | replace:'index',''}}">{% if menupage == page %}<u>{% endif %}{{ menupage.title }}{% if menupage == page %}</u>{% endif %}</a></li>
 					{% endfor %}
 				</ul>
 			</div>
