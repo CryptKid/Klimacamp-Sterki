@@ -8,8 +8,8 @@ layout: default
 
 ![](/media/wald.JPG){: class="preview" }
 
-Der Sterkrader Wald wird momentan bedroht durch den veralteten Ausbauplans das Autobahnkreuz Oberhausenauszubauen. 
-Für den Ausbau sollen rund 5000 Bäume gefällt und ca. 3,8ha Boden dauerhaft versiegelt werden, obwohl Oberhausen sowieso schon die zweit waldärmste Stadt in ganz Deutschland ist. Dazu kommt eine Lärm- und Schmutzbelästigung für die Anwohner\*innen. Alternativen zu diesem zerstörerischen Plan wurden leider kaum berücksichtigt.
+Der Sterkrader Wald wird momentan bedroht durch den veralteten Ausbauplans für das Autobahnkreuz Oberhausen.
+Für den Ausbau sollen rund _5000 Bäume_ gefällt und ca. _3,8ha_ Boden dauerhaft versiegelt werden, obwohl Oberhausen sowieso schon die zweit waldärmste Stadt in ganz Deutschland ist. Dazu kommt eine _Lärm- und Schmutzbelästigung_ für die Anwohner\*innen. Alternativen zu diesem zerstörerischen Plan wurden leider kaum berücksichtigt.
 Aus diesem Grund haben sich verschiedene Protestbewegungen gebildet. Zum einen gibt es das Bündis zum Erhalt des Sterkrader Waldes, dass aus Naturschutzverbänden, Kirchengruppen, Initiativen und Klimabewegungen aus Oberhausen besteht. Zum anderen haben sich mehrere Ortsgruppen von FridaysforFuture zusammengeschlossen, um das Klimacamp Sterki im Sommer zu organisieren. „Wir stehen für Wald statt Asphalt. Lebensraum und Grünflächen zu vernichten, ist Gift für das globale Klima. Die sture Fixierung der Landes- und Bundesregierung auf den Individualverkehr und damit auf Schnellstraßen werden langfristig keine Abhilfe schaffen.“ Zwar existiert das Klimacamp seit August nicht mehr, doch die Orga als solche ist erhalten geblieben und veranstaltet auch immer wieder Aktionen zur Rettung des Sterkis, etwa Demos, Konzerte und die Idee des nächsten Klimacamps steht im Raum...
 
 ## Das Bündnis zum Erhalt des Sterkrader Waldes
